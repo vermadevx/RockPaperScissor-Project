@@ -33,10 +33,8 @@ const showWinner = (userWin, userChoice, compChoice) =>{
 };
 
 const playGame = (userChoice) =>{
-    console.log("User's Choice = ", userChoice);
     //Generate Comp choice --> Modular Programming(creating functions)
     const compChoice = genCompChoice();
-    console.log("Comp choice = " , compChoice);
 
     if(userChoice === compChoice){
         //Draw Game
